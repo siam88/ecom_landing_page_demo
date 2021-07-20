@@ -5,7 +5,7 @@
   height: 200px;
   padding: 22% 7%;
   border: none;
-  
+ 
 }
 /* @media (min-width: 992px) and (max-width: 1199.98px)  {
     .customCardStyle {
@@ -19,19 +19,19 @@
     .customCardStyle {
      
         height: 270px;
-        padding: 15% 3%;
+        padding: 15% 0%;
       }
  }
  @media (min-width: 576px) and (max-width: 767.98px){ 
     .customCardStyle {
      
         height: 250px;
-        padding: 20% 3%;
+        padding: 20% 0%;
       }
  }
  @media (max-width: 575.98px)  { 
     .customCardStyle {
         height: 250px;
-        padding: 20% 3%;
+        padding: 20% 0%;
       }
  }
