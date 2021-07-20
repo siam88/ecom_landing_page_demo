@@ -32,7 +32,7 @@ export default Blogs
 
 
 const CustomCard = (props) => {
-    return <div className="card " style={{ padding: "1%" }}>
+    return <div className="card " style={{ padding: "1%" ,border:"1px solid #f3f2f2"}}>
         <div className="card-body">
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-right">

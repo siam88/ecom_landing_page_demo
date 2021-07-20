@@ -15,6 +15,8 @@ import ps4 from './assets/ps4.PNG'
 
 import blog from './assets/blog.PNG'
 
+import addBanner from './assets/addBanner.PNG'
+
 export const featureProductData = [
     {
         id: 1,
@@ -103,5 +105,15 @@ export const blogs = [
         desc: "It is a long established fact that a reader will be distracted eget velit. Donec ac tempus ante",
         img: blog,
         type: "admin"
+    },
+]
+
+export const offeraddBanner = [
+    {
+        discount:"20",
+        title: "Accessories Naturally Colorful 2021",
+        price: "1024.00",
+        img: addBanner,
+        
     },
 ]

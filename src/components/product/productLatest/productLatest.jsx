@@ -32,7 +32,7 @@ export default ProductLatest
 
 
 const CustomCard = (props) => {
-    return <div className="card "  style={{padding:"2%"}}>
+    return <div className="card "  style={{padding:"2%",border:"1px solid #f3f2f2"}}>
         <div className="card-body">
             <div className="row">
                 <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-12 text-right">
