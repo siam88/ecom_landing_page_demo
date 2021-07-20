@@ -4,6 +4,7 @@ import ProductFeature from '../../components/product/productFeature/ProductFeatu
 import ProductNewArrivals from '../../components/product/productNewArrivals/productNewArrivals';
 import ProductsRecentlyView from '../../components/product/productsRecentlyView/ProductsRecentlyView';
 import ProductLatest from '../../components/product/productLatest/productLatest';
+import Blogs from '../../components/blogs/Blogs';
 
 
 const LandingPage = () => {
@@ -19,6 +20,7 @@ const LandingPage = () => {
         </Col>
         <Col xs={12} md={4} sm={12} lg={3} >
             <ProductLatest />
+            <Blogs/>
         </Col>
 
     </Container>

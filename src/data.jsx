@@ -13,6 +13,7 @@ import ps2 from './assets/ps2.PNG'
 import ps3 from './assets/ps3.PNG'
 import ps4 from './assets/ps4.PNG'
 
+import blog from './assets/blog.PNG'
 
 export const featureProductData = [
     {
@@ -73,24 +74,34 @@ export const latestProducts = [
         title: "Product Sample",
         rating: 5,
         img: ps1,
-        price:690.99
+        price: 690.99
     },
     {
         title: "Product Sample",
         rating: 5,
         img: ps2,
-        price:690.99
+        price: 690.99
     },
     {
         title: "Product Sample",
         rating: 5,
         img: ps3,
-        price:690.99
+        price: 690.99
     },
     {
         title: "Product Sample",
         rating: 5,
         img: ps4,
-        price:690.99
+        price: 690.99
+    },
+]
+
+export const blogs = [
+    {
+        date:"14. Dec. 2021",
+        title: "Aypi non habent claritatem insitam",
+        desc: "It is a long established fact that a reader will be distracted eget velit. Donec ac tempus ante",
+        img: blog,
+        type: "admin"
     },
 ]
