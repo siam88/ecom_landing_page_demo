@@ -5,10 +5,10 @@ import './ProductFeature.css'
 
 const ProductFeature = () => {
     return <>
-        <Container style={{ border: "1px solid red" }}>
+        <Container >
             <Row className="row justify-content-between">
                 {featureProductData.map((e, i) => {
-                    return <Col xs={12} md={6} sm={12} lg={6} style={{ border: "1px solid blue" }}>
+                    return <Col xs={12} md={6} sm={12} lg={6} >
                         <Cards value={e} key={i} />
                     </Col>
                 })}

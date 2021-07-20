@@ -9,7 +9,7 @@ const ProductsRecentlyView = () => {
     return <>
         <Container className="mt-5">
             <Row>
-                <Col xs={12} md={12} sm={12} lg={12} className="mb-3" style={{ borderBottom: "1px solid #f0f0f0", }}>
+                <Col xs={12} md={12} sm={12} lg={12} className="mb-3 mt-5" style={{ borderBottom: "1px solid #f0f0f0", }}>
                     <button type="button" className="btn btn-warning " style={{ float: "left", padding: "1% 5%", color: "white", fontWeight: "bold", background: "#FED90F", border: "none" }}>
                     <FontAwesomeIcon icon={faTrophy} />   RECENTLY VIEWED PRODUCTS
                         </button>
