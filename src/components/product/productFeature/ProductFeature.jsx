@@ -35,9 +35,9 @@ const Cards = (props) => {
                         <button type="button" className="btn btn-warning " style={{ padding: "2% 10%", color: "white", fontWeight: "bold", background: "#FED90F", border: "none" }}>Shop Now</button>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-4 col-xs-2 col-5 text-right">
-                        
+                        <div className="imgCustom">
                             <img src={props.value.img} alt="sans"  />
-                        
+                        </div>
                     </div>
                 </div>
             </div>
