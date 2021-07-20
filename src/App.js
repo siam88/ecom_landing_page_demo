@@ -1,10 +1,13 @@
 
 import './App.css';
+import LandingPage from './containers/landingPage/LandingPage';
 import Layout from './hoc/layout/layout';
 
 function App() {
   return (
-   <Layout><h1>I am body</h1></Layout>
+    <Layout>
+      <LandingPage />
+    </Layout>
   );
 }
 
