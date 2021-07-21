@@ -6,7 +6,8 @@ import ProductsRecentlyView from '../../components/product/productsRecentlyView/
 import ProductLatest from '../../components/product/productLatest/productLatest';
 import Blogs from '../../components/blogs/Blogs';
 import AddBanner from '../../components/addBanner/AddBanner';
-
+import Product from '../../components/product/product/Product'
+import {products} from '../../data'
 
 const LandingPage = () => {
     return <Container>
@@ -26,6 +27,16 @@ const LandingPage = () => {
             </Col>
             <Col xs={12} md={8} sm={12} lg={9} >
                 <AddBanner />
+                <Container>
+                    <Row>
+                        {products.map((e,i)=>{
+                            return  <Col xs={6} md={6} sm={6} lg={3} >
+                            <Product product={e} serial={i} key={i}/>
+                        </Col>
+                        })}
+                       
+                    </Row>
+                </Container>
             </Col>
         </Row>
     </Container>

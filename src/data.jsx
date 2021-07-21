@@ -17,6 +17,8 @@ import blog from './assets/blog.PNG'
 
 import addBanner from './assets/addBanner.PNG'
 
+import p1 from './assets/p1.PNG'
+
 export const featureProductData = [
     {
         id: 1,
@@ -100,7 +102,7 @@ export const latestProducts = [
 
 export const blogs = [
     {
-        date:"14. Dec. 2021",
+        date: "14. Dec. 2021",
         title: "Aypi non habent claritatem insitam",
         desc: "It is a long established fact that a reader will be distracted eget velit. Donec ac tempus ante",
         img: blog,
@@ -110,10 +112,75 @@ export const blogs = [
 
 export const offeraddBanner = [
     {
-        discount:"20",
+        discount: "20",
         title: "Accessories Naturally Colorful 2021",
         price: "1024.00",
         img: addBanner,
-        
+
+    },
+]
+
+export const products = [
+    {
+        id:"1",
+        title: "CCTV Camera",
+        rating: 5,
+        price: '690.00',
+        discountPrice: "720.00",
+        img: p1,
+        productType: "SALE"
+    },
+    {
+        id:"2",
+        title: "N5000 Laptop",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+    },
+    {
+        id:"3",
+        title: "Anker SoundCore Life Q20",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+        productType: "SALE"
+    },
+    {
+        id:"4",
+        title: "40' Vikan HD ULTA",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+        productType: "NEW"
+    },
+    {
+        id:"5",
+        title: "CCTV Camera",
+        rating: 5,
+        price: '690.00',
+        discountPrice: "720.00",
+        img: p1,
+    },
+    {
+        id:"6",
+        title: "N5000 Laptop",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+    },
+    {
+        id:"7",
+        title: "Anker SoundCore Life Q20",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+    },
+    {
+        id:"8",
+        title: "40' Vikan HD ULTA",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+        productType: "NEW"
     },
 ]
