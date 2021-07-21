@@ -6,11 +6,21 @@ import ProductsRecentlyView from '../../components/product/productsRecentlyView/
 import ProductLatest from '../../components/product/productLatest/productLatest';
 import Blogs from '../../components/blogs/Blogs';
 import AddBanner from '../../components/addBanner/AddBanner';
-
+import Product from '../../components/product/product/Product'
+import { products } from '../../data'
+import BottomBanner from '../../assets/bottomBanner.PNG'
+import Category from '../../components/category/Category';
 
 const LandingPage = () => {
     return <Container>
         <Row>
+           
+                <Col xs={12} md={12} sm={12} lg={12} >
+
+                    <Category />
+
+                </Col>
+            
             <Col xs={12} md={12} sm={12} lg={12} >
                 <ProductFeature />
             </Col>
@@ -26,7 +36,22 @@ const LandingPage = () => {
             </Col>
             <Col xs={12} md={8} sm={12} lg={9} >
                 <AddBanner />
+                <Container>
+                    <Row>
+                        {products.map((e, i) => {
+                            return <Col xs={12} md={6} sm={12} lg={3} >
+                                <Product product={e} serial={i} key={i} />
+                            </Col>
+                        })}
+
+                    </Row>
+                </Container>
             </Col>
+            <div class="d-none d-lg-block">
+                <Col xs={12} md={12} sm={12} lg={12} align="center" class=" mt-5">
+                    <img src={BottomBanner} alt="sans" height="70%" width="98%" className="mt-5" />
+                </Col>
+            </div>
         </Row>
     </Container>
 }

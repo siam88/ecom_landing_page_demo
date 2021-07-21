@@ -9,7 +9,7 @@ const Blogs = () => {
     return <>
         <Container className="mt-5">
             <Row>
-                <Col xs={12} md={12} sm={12} lg={12} className="mb-1" >
+                <Col xs={12} md={12} sm={12} lg={12} className="mb-4" >
                     <h4 style={{ float: "left", color: "black", fontWeight: "600", border: "none" }}>
                         From the Blog
                     </h4>

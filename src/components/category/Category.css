@@ -1,0 +1,20 @@
+.customList ul{
+position:relative;
+}
+.customList ul li{
+    list-style:none;
+    padding:10px
+}
+.customList ul li span{
+    width:"20px";
+    height:"20px";
+    text-align:"center";
+    display:"inline-block";
+    margin-left: 10%;
+    float:right;
+    font-size:"12px";
+    font-weight:"600"
+}
+.customList{
+    border:1px solid #e0e0e0
+}

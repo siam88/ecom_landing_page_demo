@@ -32,14 +32,14 @@ export default ProductLatest
 
 
 const CustomCard = (props) => {
-    return <div className="card "  style={{padding:"2%",border:"1px solid #f3f2f2"}}>
+    return <div className="card " style={{ padding: "2%", border: "1px solid #f3f2f2" }}>
         <div className="card-body">
             <div className="row">
                 <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-12 text-right">
                     <img src={props.value.img} alt="sans" height="100%" width="100%" />
                 </div>
                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-12 text-left pt-2">
-                    <span classNameName="card-title" style={{color:"#FDDD41", fontWeight: "700"}}>{props.value && props.value.title}</span><br />
+                    <span classNameName="card-title" style={{ color: "#FDDD41", fontWeight: "700" }}>{props.value && props.value.title}</span><br />
                     <span style={{ fontSize: "0.75rem", color: "#D13839" }}>
                         <span> <FontAwesomeIcon icon={faStar} /></span>
                         <span> <FontAwesomeIcon icon={faStar} /></span>
