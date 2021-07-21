@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap'
 import { offeraddBanner } from '../../data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleLeft, faAngleRight, faStar } from '@fortawesome/free-solid-svg-icons'
 
 import './AddBanner.css'
 const AddBanner = () => {
