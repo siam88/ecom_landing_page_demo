@@ -7,8 +7,25 @@ import card from '../../assets/card.PNG'
 import Header from '../../components/header/Header';
 import livechat from '../../assets/livechat.PNG'
 import appav from '../../assets/appav.PNG'
+import Toolbar from '../../components/toolbar/Toolbar';
+import SideDrawer from '../../components/toolbar/sideDrawer';
 const Layout = (props) => {
+    const [showSideDrawer, setShowSideDrawer] = useState(false)
+    const sideDrawerClosedHandler = () => {
+        setShowSideDrawer(false)
+    }
+
+    const sideDrawerToggleHandler = () => {
+        setShowSideDrawer(!showSideDrawer)
+    }
+
     return <div className="container-fluid">
+        <div class="d-lg-none">
+            <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
+        </div>
+        <SideDrawer
+            open={showSideDrawer}
+            closed={sideDrawerClosedHandler} />
         <Col xs={12} md={12} sm={12} lg={12} >
             <Header />
         </Col>
