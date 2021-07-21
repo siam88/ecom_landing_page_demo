@@ -30,7 +30,7 @@ const LandingPage = () => {
                 <Container>
                     <Row>
                         {products.map((e,i)=>{
-                            return  <Col xs={6} md={6} sm={6} lg={3} >
+                            return  <Col xs={12} md={6} sm={12} lg={3} >
                             <Product product={e} serial={i} key={i}/>
                         </Col>
                         })}
