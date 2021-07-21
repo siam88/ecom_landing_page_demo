@@ -8,7 +8,9 @@ const Header = () => {
     return <>
         <HeaderTop />
         <HeaderMid />
-        <HeaderBottom />
+        <div class="d-none d-lg-block">
+            <HeaderBottom />
+        </div>
     </>
 }
 export default Header

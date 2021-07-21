@@ -9,10 +9,18 @@ import AddBanner from '../../components/addBanner/AddBanner';
 import Product from '../../components/product/product/Product'
 import { products } from '../../data'
 import BottomBanner from '../../assets/bottomBanner.PNG'
+import Category from '../../components/category/Category';
 
 const LandingPage = () => {
     return <Container>
         <Row>
+           
+                <Col xs={12} md={12} sm={12} lg={12} >
+
+                    <Category />
+
+                </Col>
+            
             <Col xs={12} md={12} sm={12} lg={12} >
                 <ProductFeature />
             </Col>
