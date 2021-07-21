@@ -39,9 +39,11 @@ const LandingPage = () => {
                     </Row>
                 </Container>
             </Col>
-            <Col xs={12} md={12} sm={12} lg={12} align="center" className="mt-5">
-                <img src={BottomBanner} alt="sans" height="70%" width="98%" className="mt-5"/>
-            </Col>
+            <div class="d-none d-lg-block">
+                <Col xs={12} md={12} sm={12} lg={12} align="center" class=" mt-5">
+                    <img src={BottomBanner} alt="sans" height="70%" width="98%" className="mt-5" />
+                </Col>
+            </div>
         </Row>
     </Container>
 }
