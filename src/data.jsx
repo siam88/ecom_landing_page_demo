@@ -18,6 +18,7 @@ import blog from './assets/blog.PNG'
 import addBanner from './assets/addBanner.PNG'
 
 import p1 from './assets/p1.PNG'
+import vr from './assets/vr.PNG'
 
 export const featureProductData = [
     {
@@ -184,6 +185,17 @@ export const products = [
         productType: "NEW"
     },
 ]
+export const featuredProduct = {
+        id:"1",
+        title: "VR - VASE",
+        rating: 5,
+        price: '690.00',
+        discountPrice: "720.00",
+        img: vr,
+        alreadySold:'6',
+        available:"39"
+    }
+   
 
 export const newarrivalproducts = [
     {
