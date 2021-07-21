@@ -3,8 +3,11 @@ import { Row, Col, Container } from 'react-bootstrap'
 import { recentlyViewProductDetails } from '../../../data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight, faTrophy } from '@fortawesome/free-solid-svg-icons'
-
+import { newarrivalproducts } from '../../../data'
+import Product from '../product/Product'
 import './productNewArrivals.css'
+
+
 const productNewArrivals = () => {
     return <>
         <Container className="mt-5">
@@ -18,11 +21,20 @@ const productNewArrivals = () => {
                         <button type="button" type="button" class="btn btn-light" ><FontAwesomeIcon icon={faAngleRight} /></button>
                     </div>
                 </Col>
-                <Col xs={12} md={4} sm={4} lg={5} >
-            
-                </Col>
-                <Col xs={12} md={8} sm={8} lg={7} >
+                <Col xs={12} md={4} sm={4} lg={4} >
 
+                </Col>
+                <Col xs={12} md={8} sm={8} lg={8} >
+                    <Container>
+                        <Row>
+                            {newarrivalproducts.map((e, i) => {
+                                return <Col xs={12} md={6} sm={12} lg={4} >
+                                    <Product product={e} serial={i} key={i} />
+                                </Col>
+                            })}
+
+                        </Row>
+                    </Container>
                 </Col>
             </Row>
         </Container>

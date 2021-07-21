@@ -184,3 +184,54 @@ export const products = [
         productType: "NEW"
     },
 ]
+
+export const newarrivalproducts = [
+    {
+        id:"1",
+        title: "CCTV Camera",
+        rating: 5,
+        price: '690.00',
+        discountPrice: "720.00",
+        img: p1,
+        productType: "SALE"
+    },
+    {
+        id:"2",
+        title: "N5000 Laptop",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+    },
+    {
+        id:"3",
+        title: "Anker SoundCore Life Q20",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+        productType: "SALE"
+    },
+    {
+        id:"4",
+        title: "40' Vikan HD ULTA",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+        productType: "NEW"
+    },
+    {
+        id:"5",
+        title: "CCTV Camera",
+        rating: 5,
+        price: '690.00',
+        discountPrice: "720.00",
+        img: p1,
+    },
+    {
+        id:"6",
+        title: "N5000 Laptop",
+        rating: 5,
+        price: '720.00',
+        img: p1,
+    },
+    
+]

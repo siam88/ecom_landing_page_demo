@@ -4,11 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight, faStar, faCompressAlt, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 import './Product.css'
+
 const Product = (props) => {
     return <>
 
 
-        <div className="row mt-3" style={{ border: "1px solid #f3f2f2", padding: "5%" }}>
+        <div className="row mt-2" style={{ border: "1px solid #f3f2f2", padding: "5%" }}>
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 text-right " style={{ padding: "0%" }}>
                 <div class="customContainer">
                   { props.product.productType==="SALE"? <div class="tag" style={{background:"#CD1213"}}><p>SALE</p></div>:props.product.productType==="NEW"?<div class="tag" style={{background:"#2D9907"}}><p>NEW</p></div>:null}
